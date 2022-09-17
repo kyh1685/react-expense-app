@@ -15,7 +15,7 @@ function ExpenseItem(props){
         <Card className="expense-item">
             <ExpenseDate date={props.date} />
             {/* <div className="expense-item__description">{props.date.toISOString()}</div> */}
-            <h2>{title}</h2>
+            <h2>{props.title}</h2>
             <div>
                 <div className="expense-item__price">${props.amount}</div>
             </div>
